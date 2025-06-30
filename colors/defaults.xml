@@ -9,6 +9,7 @@
 	<color name="black">FF000000</color>
 	<color name="white">FFF0F0F0</color>
 	<color name="grey">FFA0A0A0</color>
+	<color name="watchedgrey">FFDDBD3E</color>
 	<color name="blue">FF7ACAFE</color>
 	<color name="red">FFCE4421</color>
 	<color name="button_focus">FF12A0C7</color>

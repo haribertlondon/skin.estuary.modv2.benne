@@ -97,7 +97,7 @@
 						<right>40</right>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
-						<textcolor>grey</textcolor>
+						<textcolor>watchedgrey</textcolor>
 						<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 						<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
 					</control>
@@ -120,7 +120,7 @@
 						<aligny>center</aligny>
 						<label>$VAR[ListLabel2Var]</label>
 						<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
-						<textcolor>grey</textcolor>
+						<textcolor>watchedgrey</textcolor>
 						<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 						<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
 					</control>

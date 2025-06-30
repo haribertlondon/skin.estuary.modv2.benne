@@ -283,7 +283,7 @@
 							<right>30</right>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label,[B],[/B]]</label>
-							<textcolor>grey</textcolor>
+							<textcolor>watchedgrey</textcolor>
 							<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 							<visible>Container.Content(sets)</visible>
 							<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
@@ -704,7 +704,7 @@
 							<right>30</right>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label,[B],[/B]]</label>
-							<textcolor>grey</textcolor>
+							<textcolor>watchedgrey</textcolor>
 							<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 							<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
 						</control>
@@ -725,7 +725,7 @@
 							<right>30</right>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Genre]</label>
-							<textcolor>grey</textcolor>
+							<textcolor>watchedgrey</textcolor>
 							<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 							<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
 						</control>
@@ -878,7 +878,7 @@
 							<right>30</right>
 							<aligny>center</aligny>
 							<label>$INFO[ListItem.Label,[B],[/B]]</label>
-							<textcolor>grey</textcolor>
+							<textcolor>watchedgrey</textcolor>
 							<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 							<visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
 						</control>

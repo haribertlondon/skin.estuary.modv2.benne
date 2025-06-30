@@ -63,7 +63,7 @@
                             <animation effect="rotate" end="90" start="0" condition="true" center="20,650">Conditional</animation>
                             <label>$INFO[ListItem.Label]</label>
                             <align>left</align>
-                            <textcolor>grey</textcolor>
+                            <textcolor>watchedgrey</textcolor>
                             <visible>Skin.HasSetting(greyedout_watched) + Integer.IsGreater(ListItem.Playcount,0)</visible>
                         </control>
                         <control type="image">

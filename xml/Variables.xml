@@ -835,11 +835,11 @@
 	</variable>
 	<variable name="PlotSpoilerInfoVar">
 		<value condition="[Skin.HasSetting(hide_plotforspoiler) + String.IsEqual(ListItem.DBType,episode)] + Integer.IsLess(ListItem.Playcount,1) + !String.StartsWith(Container.FolderPath,plugin://)">$LOCALIZE[31230]</value>
-		<value>$INFO[ListItem.Plot]</value>
+		<value>$INFO[ListItem.LastPlayed,[I],[/I][CR][CR]]$INFO[ListItem.Plot]</value>
 	</variable>
 	<variable name="PlotSpoilerVar">
 		<value condition="[Skin.HasSetting(hide_plotforspoiler) + String.IsEqual(ListItem.DBType,episode)] + Integer.IsLess(ListItem.Playcount,1) + !String.StartsWith(Container.FolderPath,plugin://)">[COLOR white]$LOCALIZE[31230][/COLOR]</value>
-		<value>$INFO[ListItem.Tagline,[B],[/B][CR]]$INFO[ListItem.Plot,[COLOR white],[/COLOR]]</value>
+		<value>$INFO[ListItem.LastPlayed,[I],[/I][CR][CR]]$INFO[ListItem.Tagline,[B],[/B][CR]]$INFO[ListItem.Plot,[COLOR white],[/COLOR]]</value>
 	</variable>
 	<variable name="OsdMainLabelVar">
 		<value condition="!VideoPlayer.Content(LiveTV) + !Skin.HasSetting(hide_pubyear)">$INFO[VideoPlayer.Artist,, [COLOR white]-[/COLOR] ]$INFO[VideoPlayer.Album,, [COLOR white]-[/COLOR] ]$INFO[VideoPlayer.TVShowTitle,, [COLOR white]-[/COLOR] ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode,,. ]$INFO[VideoPlayer.Title]</value>
